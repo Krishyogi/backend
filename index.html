@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        body {
+    font-family: Arial, Helvetica, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 {
+
+  font-size:x-large;
+  color: #8B4513;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:#8B4513; /* Blue background color */
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white; /* White text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white; /* White text color */
+    padding: 14px 16px;
+    background-color: #8B4513; /* Brown background color */
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:brown; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8B4513; /* Brown background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black; /* Black text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #A52A2A; /* Darker brown on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">View
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="http://localhost/school/students1.php">Student</a>
+                    <a href="http://localhost/school/parents.php">Parent</a>
+                    <a href="http://localhost/school/teachers.php">Teacher</a>
+                    <a href="http://localhost/school/classes.php">Classes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Add
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="addstudent.html">student</a>
+                    <a href="addparent.html">Parent</a>
+                    <a href="addteachers.html">Teacher</a>
+                    <a href="addclasses.html">Classes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Delete
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="deletestudent.html">Student</a>
+                  <a href="deleteparent.html">Parent</a>
+                  <a href="deleteteachers.html">Teacher</a>
+                  <a href="deleteclasses.html">Classes</a>
+              </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Update
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Updatestudent.html">Student</a>
+                <a href="updateparent.html">Parent</a>
+                <a href="updateteachers.html">Teacher</a>
+                <a href="Updateclasses.html">Classes</a>
+            </div>
+        </div>
+            <a href="contactus.html">Contact us</a>
+        </div>
+
+        
+        <h1>Welcome to ST Alphanous RC Primary School</h1>
+        <p>Welcome to St. Alphonsus R.C. Primary School.  This is a school where our children enjoy their learning, the staff work hard to establish a caring Christian community and everyone is valued equally. .</p>
+
+        <h2>History of the school</h2>
+        <p>St. Alphonsus is a happy school and we believe we achieve this by providing a safe and secure environment in which our children grow and learn with confidence..</p>
+    </body>
+</html>
